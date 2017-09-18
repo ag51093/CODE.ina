@@ -1,0 +1,163 @@
+body {
+    background: #ecf1ff;
+    font-family: 'Open Sans', sans-serif;
+	color: #4662ab;
+}
+
+table {
+	width: 100%;
+	border-spacing: 5px;
+	border-color: #4662ab;
+	border-collapse: collapse;
+	
+}
+
+th, td {
+	border-spacing: 5px;
+	border-color: #4662ab;
+	padding: 5px;
+	border-bottom: 1px solid #4662ab;
+}
+
+tr:hover {
+	background-color: #ecf1ff;
+}
+
+tr.header {
+	font-weight: bold;
+}
+
+ul.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: white;
+    word-break: normal;
+    position: fixed;
+    left: 275px;
+    right: 32px;
+    top: 32px;
+    bottom: 32px;
+    margin-top: 94px;
+    padding: 15px;
+    overflow: auto;
+}
+
+		
+div.error {
+	color: #d53232;
+	font-size: 12px;			
+}
+ 
+ul.sidebar {
+    list-style-type: none;
+    background-color: #4662ab;
+    margin-left: 25px;
+    padding: 0;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+li a.sidebar {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+li a.sidebar.active {
+    background-color: #585858;
+    color: white;
+}
+
+li a.sidebar:hover:not(.active) {
+    background-color: #ffffff;
+    color: #4662ab;
+}
+
+ul.navbar {
+    list-style-type: none;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    height: auto;
+    overflow: auto;
+    min-width: 600px;
+}
+
+li a.navbar {
+    float: right;
+    display: block;
+    padding: 30px 20px 30px;
+    text-decoration: none;
+    color: #4662ab;
+}
+
+li a.navbar:hover:not(.active) {
+    background-color: #4662ab;
+    color: white;
+}
+
+#logo {
+    padding: 15px;
+    float: left;
+    height: 45px;
+    width: auto;;
+}
+
+.card::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+.card::-webkit-scrollbar {
+ width: 10px;
+ background-color: #F5F5F5;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: #4662ab;
+}
+
+button {
+    padding: 10px 20px;
+    border : 1px solid;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #4662ab;
+    border-color: #4662ab;
+}
+
+button:hover {
+  	background : #4662ab;
+  	color : white;
+  	border-color: white;
+}
+
+select {
+	color: #4662ab;
+	background : white;
+	border-color: #4662ab;
+	border: 1px solid;
+	padding: 5px;
+}
+
+option {
+
+}	
+
+input {
+    color: #4662ab;
+    border: 0px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+hr {
+	border-top: 1px solid #4662ab;
+	border-bottom: none;
+}
